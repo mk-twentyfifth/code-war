@@ -1,6 +1,6 @@
 const decendingOrder = (n) => {
   if (typeof n != "number") {
-    throw new Error ("this is not a number");
+    throw new Error("this is not a number");
   }
 
   if (n <= 0) {
@@ -19,5 +19,4 @@ const decendingOrder = (n) => {
 
   return stringToNumber;
 };
-console.log(decendingOrder(123))
-
+console.log(decendingOrder(123));

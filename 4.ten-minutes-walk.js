@@ -11,7 +11,7 @@ function isValidWalk(walk) {
       x = x + 1;
     }
     if (i == "s") {
-      x = x -1;
+      x = x - 1;
     }
     if (i == "e") {
       y = y + 1;
@@ -23,12 +23,12 @@ function isValidWalk(walk) {
 
   result = Boolean;
 
-  if(x == 0 && y == 0){
-    result = true
-    return true
+  if (x == 0 && y == 0) {
+    result = true;
+    return true;
   } else {
-    result = false
-    return false
+    result = false;
+    return false;
   }
 }
 
