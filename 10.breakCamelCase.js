@@ -9,7 +9,6 @@ function solution(string) {
       if (s === s.toUpperCase()) {
         return (results = results + " " + s);
       }
-
       results = results + s;
     });
   }
